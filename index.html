@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+
+<body>
+<div id="main-box">
+
+    <div id="middle">
+
+        <input type="text" id="search" placeholder="Search city">
+        <button id="btn">search</button>
+
+        <div id="two-box">
+            <div id="box1"><div id="data"><span id="city">---</span><span id="chance">---</span><h1 id="tempshow">---</h1></div>
+            <img src="sun.png" id="sun">
+        </div>
+            <div id="box2">
+               <div><SPAN id="today">TODAY'S FORECAST</SPAN></div>
+                <div id="inner-box">
+
+                <div class="inner"><span class="time">---</span><img src="sun.png" class="inner-img"><span class="buttom">---</span></div>
+                <div class="inner"><span class="time">---</span><img src="sun.png" class="inner-img"><span class="buttom">---</span></div>
+                <div class="inner"><span class="time">---</span><img src="sun.png" class="inner-img"><span class="buttom">---</span></div>
+                <div class="inner"><span class="time">---</span><img src="sun.png" class="inner-img"><span class="buttom">---</span></div>
+                <div class="inner"><span class="time">---</span><img src="sun.png" class="inner-img"><span class="buttom">---</span></div>
+                <div class="inner" id="last"><span class="time">---</span><img src="sun.png" class="inner-img"><span class="buttom" >---</span></div>
+                </div>
+            </div>
+            <div id="box3">
+                <div id="head"><span id="air">AIR CONDITIONS</span></div>
+                <div id="lastdata">
+                <div class="bottom-boxes">
+                    <div class="inside"><span class="upper"><i class="fa-solid fa-temperature-quarter"></i>Real Feel</span>
+                    <span class="lower">---</span></div>
+                    <div class="inside"><span class="upper"><i class="fa-solid fa-droplet"></i> Chance of rain</span>
+                    <span class="lower">---</span></div>
+                </div>
+                <div class="bottom-boxes">
+                    <div class="inside"><span class="upper"><i class="fa-solid fa-wind"></i> Wind</span>
+                    <span class="lower">---</span></div>
+                    <div class="inside"><span class="upper"><i class="fa-regular fa-sun"></i> humidity</span>
+                    <span class="lower">---</span></div>
+                </div>
+               </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="right-box">
+        <div id="header"><p id="days">5-DAYS FORECAST</p></div>
+
+    <div class="right-data">
+        <div class="day"><p class="today-data">---</p></div>
+        <div class="weather"><img class="inner-sun" src="sun.png"><p class="weather-plan">---</p></div>
+        <div class="today-temp"><p class="temp-plan">--</p></div>
+    </div>
+      <div class="right-data"><div class="day"><p class="today-data">---</p></div>
+        <div class="weather"><img class="inner-sun" src="sun.png"><p class="weather-plan">---</p></div>
+        <div class="today-temp"><p class="temp-plan">---</p></div></div>
+        <div class="right-data"><div class="day"><p class="today-data">---</p></div>
+        <div class="weather"><img class="inner-sun" src="sun.png"><p class="weather-plan">---</p></div>
+        <div class="today-temp"><p class="temp-plan">---</p></div></div>
+          <div class="right-data"><div class="day"><p class="today-data">---</p></div>
+        <div class="weather"><img class="inner-sun" src="sun.png"><p class="weather-plan">---</p></div>
+        <div class="today-temp"><p class="temp-plan">---</p></div></div>
+            <div id="none-botton" class="right-data"><div class="day"><p class="today-data">---</p></div>
+        <div  class="weather"><img class="inner-sun" src="sun.png"><p class="weather-plan">---</p></div>
+        <div class="today-temp"><p class="temp-plan">---</p></div></div>
+           
+    </div>
+
+</div>
+   
+<script src="script.js"></script>
+</body>
+</html>
